@@ -207,3 +207,48 @@ footer p {
     margin-bottom: 20px; /* Adds space between the picture and the text on mobile */
   }
 }
+
+/* Accordion Styling for Dark Metallic Theme */
+.custom-accordion-button {
+  background-color: #2c2c2e;
+  color: #e0e0e0;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove the blue outline */
+}
+
+.custom-accordion-button:hover,
+.custom-accordion-button:not(.collapsed) {
+  background-color: #3a3a3c;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-accordion-button:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: none; /* Remove focus shadow */
+}
+
+.custom-accordion-body {
+  background-color: #1c1c1e;
+  color: #cccccc;
+  padding: 1.5rem;
+  border-top: 1px solid #444;
+}
+
+.accordion-item {
+  border: none; /* Remove default border */
+  margin-bottom: 0.5rem; /* Space between items */
+}
+
+.accordion-header {
+  margin-bottom: 0.5rem;
+}
+
+h2.accordion-header {
+  font-weight: 500;
+}
