@@ -252,3 +252,16 @@ footer p {
 h2.accordion-header {
   font-weight: 500;
 }
+
+#quote blockquote {
+  font-style: italic;
+  color: #e0e0e0;
+  border-left: 5px solid #343a40; /* Adds a vertical line to the left */
+  padding-left: 15px;
+}
+
+#quote .blockquote-footer {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-top: 10px;
+}
