@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic | Hooman Zolfaghari</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Hooman Zolfaghari</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="academic.html">Academic</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="industrial.html">Industrial</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id = "resume" class="container">
+        <br />
+      <h2>Research Interests</h2>
+<p>
+        As part of the quest to understand our reality, and understand how the
+        world and our brain works, I am focused on the underlying mathematics
+        and principles of intelligence and learning in Neural Networks.
+      </p>
+
+      <div class="accordion" id="ResearchInterestsAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="RI1">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseRI1"
+              aria-expanded="false"
+              aria-controls="collapseRI1"
+            >
+              Machine Learning Theory
+            </button>
+          </h2>
+          <div
+            id="collapseRI1"
+            class="accordion-collapse collapse"
+            aria-labelledby="RI1"
+            data-bs-parent="#ResearchInterestsAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              Understand at a precise mathematical level what capabilities and
+              information are fundamentally needed to learn different kinds of
+              tasks successfully, and to understand the basic algorithmic
+              principles involved in getting computers to learn from data and to
+              improve performance with feedback (<a
+                href="https://www.cs.cmu.edu/~avrim/Talks/mlt.pdf"
+                >ref</a
+              >).
+              <br />
+              Proving guarantees for algorithms (under what conditions will they
+              succeed ?, how much data and computation time is needed ?) and
+              developing machine learning algorithms that <strong>provably</strong> meet desired
+              criteria.
+              <br />
+              Particularly researching problems in Sample Comlexity,
+              Learnability, Generalization, Stability, Kernels, or more specific
+              problems of Deep Learning Theory, Domain
+              Adaptation, Mathematics of Attention, Nueral Tangent Kernel
+              <br />
+
+              Consquently, I deeply enjoy topics related to High-Dimensional
+              Probability and Statistics.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="RI2">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseRI2"
+              aria-expanded="false"
+              aria-controls="collapseRI2"
+            >
+              Geometric Deep Learning
+            </button>
+          </h2>
+          <div
+            id="collapseRI2"
+            class="accordion-collapse collapse"
+            aria-labelledby="RI2"
+            data-bs-parent="#ResearchInterestsAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              geometric unification of a broad class of ML problems from the
+              perspectives of symmetry and invariance (<a
+                href="https://towardsdatascience.com/geometric-foundations-of-deep-learning-94cdd45b451d"
+                >ref</a
+              >). Extending models and theories to use non-Euclidean data, such
+              as graphs. Learn and generalize from structured data by
+              incorporating geometric priors into the models.
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+     <section id="resume" class="container">
+      <h2>Education</h2>
+      <p>
+        <strong
+          >B.Sc. in Computer Science at Sharif University of Technology</strong
+        >
+      </p>
+
+      <h6>University Courses of Interest:</h6>
+
+<div class="accordion" id="coursesAccordion">
+
+  <!-- Machine Learning -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course1">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse1">
+        Machine Learning
+      </button>
+    </h2>
+
+    <div id="collapse1"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Graduate-level course covering theoretical foundations and classical
+        ML methods such as random forests, mixture models, neural networks, and
+        reinforcement learning. Implemented MAP, SVM, and MLP from scratch.
+        Final project: Neural Style Transfer.
+      </div>
+    </div>
+  </div>
+
+  <!-- Stochastic Processes -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course2">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse2">
+        Stochastic Processes
+      </button>
+    </h2>
+
+    <div id="collapse2"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Markov chains, Poisson and Gaussian processes, martingales.
+        Final and extra project on MCMC: Metropolis-Hastings algorithm.
+      </div>
+    </div>
+  </div>
+
+  <!-- High Dimensional Probability -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course3">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse3">
+        High-Dimensional Probability Analysis
+      </button>
+    </h2>
+
+    <div id="collapse3"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Concentration inequalities and probabilistic tools for high-dimensional
+        spaces with applications in ML, statistics, and random matrix theory.
+      </div>
+    </div>
+  </div>
+
+  <!-- Theory of ML -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course4">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse4">
+        Theory of Machine Learning
+      </button>
+    </h2>
+
+    <div id="collapse4"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Mathematical foundations behind modern ML and deep learning, including
+        learnability, generalization, and classical theory.
+      </div>
+    </div>
+  </div>
+
+  <!-- Statistical Learning -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course5">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse5">
+        Statistical Learning (Regression Analysis)
+      </button>
+    </h2>
+
+    <div id="collapse5"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Formal statistical perspective on learning. Introductory compared to
+        advanced theory courses.
+      </div>
+    </div>
+  </div>
+
+  <!-- Linear Algebra -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course6">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse6">
+        Linear Algebra, Game Theory
+      </button>
+    </h2>
+
+    <div id="collapse6"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Favorite foundational mathematical courses.
+      </div>
+    </div>
+  </div>
+
+  <!-- Probability & Statistics -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course7">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse7">
+        Probability & Statistics
+      </button>
+    </h2>
+
+    <div id="collapse7"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Probability and its applications, Statistics and its applications.
+      </div>
+    </div>
+  </div>
+
+  <!-- CS Foundations -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="course8">
+      <button class="accordion-button collapsed custom-accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse8">
+        Core Computer Science
+      </button>
+    </h2>
+
+    <div id="collapse8"
+      class="accordion-collapse collapse"
+      data-bs-parent="#coursesAccordion">
+      <div class="accordion-body custom-accordion-body">
+        Databases, Data Structures, Algorithms, Advanced Programming,
+        Operating Systems, Networks, Systems, Numerical Analysis,
+        Automata & Languages.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+      <h6>Other Certificates:</h6>
+      <ul>
+        <li>
+          <a
+            href="https://portal.neuromatchacademy.org/certificate/5559d355-cdf1-4aad-ab89-4876aae27fcb"
+            >Deep Learning</a
+          >
+          from Neuromatch Academy
+        </li>
+        <!-- <li>
+          <a
+            href="https://credsverse.com/credentials/abae407d-dab1-4892-911c-78296edda24e?recipient=true"
+            >Artificial Intelligence in Clinical Practice</a
+          >
+          from Iran Elites Network
+        </li> -->
+      </ul>
+
+      <h6>Self Studied Courses:</h6>
+
+        <ul>
+            <li>
+            <a
+                href="https://deepgenerativemodels.github.io/"
+                >CS236: Deep Generative Models</a
+            >
+            by Stanford University
+            </li>
+            <li>
+            <a
+                href="https://web.stanford.edu/class/cs224w/"
+                >CS224W: Machine Learning with Graphs</a
+            >
+            by Stanford University
+            </li>
+
+            <li>
+            <a
+                href="https://youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX&si=D21E80-Keg4_U2Wf"
+                >CS234: Reinforcement Learning</a
+            >
+            by Stanford University
+            </li>
+
+            <li>
+            <a
+                href="https://youtube.com/playlist?list=PLY11JnnnTUCabY4nc0hKptrd5qEWtLoo2&si=TcS1vmHjn-HHOFWg"
+                >High-Dimensional Analysis (Random Matrices & ML) </a>
+                by Roland Speicher from Saarland University
+            </li>
+        </ul>
+
+    </section>
+
+      <!-- Experience Section -->
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+
+    <h5>Research Experience</h5>
+      <ul>
+
+        <li class="container bg-dark" style="margin-bottom: 0.5rem">
+          Research Assistant at Generative AI Lab
+          , under the
+          supervision of
+          <a href="https://sharif.edu/~s_amini/#about"> Prof. S. Amini: </a>
+          
+          <p style="padding-top: 0.5rem; padding-left: 1rem">
+            We are working on publishing a new method for 
+            Classifier-Free Guidance in Diffusion Models. We are working on generating high quality sample images that are consistent with given text prompts.
+          </p>
+        </li>
+    </ul>
+
+    <h5>B.Sc. Research Projects</h5>
+    <ul>
+
+        <li class="container bg-dark" style="margin-bottom: 0.5rem">
+          Graph Similarity Search, under the supervision of
+          <a href="https://scholar.google.com/citations?user=eJEmXiQAAAAJ&hl=en"
+            >Dr. A. Rafiey</a
+          >
+          and
+          <a href="https://scholar.google.com/citations?user=V-147yoAAAAJ&hl=en"
+            >Dr. A. Vaezi</a
+          >.
+
+          <p style="padding-top: 0.5rem; padding-left: 1rem">
+            We worked on Expressive measures of graph similarity for ML tasks.
+            Starting with non-parametric and kernel methods, and then
+            incorporating deep parametric methods. Here I had the opportunity to
+            introduce many ideas and theoretical analysis, create theoretical
+            proofs and conduct benchmark experiments. I studied concepts in Geometric Deep Learning and Graph
+            NNs, Approximation on Graphs, Graph Theory, Optimization and
+            Topology.
+          </p>
+        </li>
+
+
+        <li class="container bg-dark" style="margin-bottom: 0.5rem">
+          On Security and Privacy of Kolmogorov-Arnold Networks, under the
+          supervision of
+          <a href="https://sharif.edu/~s_amini/#about"> Prof. S. Amini: </a>
+
+          <p style="padding-top: 0.5rem; padding-left: 1rem">
+            We are experimenting with many aspects of Trustworthy ML on KANs,
+            such as Robustness, Membership Inference, Certified
+            Robustness.
+            Collaborated with students at the University of Massachusetts
+          </p>
+        </li>
+
+        <li class="container bg-dark" style="margin-bottom: 0.5rem">
+          Bayes-Markov model of Cortical Orientation Selectivity, under the
+          supervision of
+          <a href="https://www.researchgate.net/profile/Hossein-Peyvandi"
+            >Dr. H. Peyvandi</a
+          >.
+
+          <p style="padding-top: 0.5rem; padding-left: 1rem">
+            We studied and experimented on a model based on Markov Random Fields
+            and Bayesian Inference, inspired by their use in computer vision tasks.
+            <!-- Most
+            existing computational algorithms are too energy consuming to be
+            applicable to brain mechanisms and many of the current computaional
+            models of OS in brain have shortcommings in explaining the availabe
+            experimental evidence. -->
+          </p>
+        </li>
+      </ul>
+
+      <h5>Teaching Experience</h5>
+     
+      <div class="accordion" id="teachingExperienceAccordion">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-1">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-1"
+              aria-expanded="false"
+              aria-controls="collapse-1"
+            >
+             EE737:Introduction to Machine Learning,
+              <a href="https://www.linkedin.com/in/s-amini/"> Dr. S. Amini</a>,
+              Spring 2025
+            </button>
+          </h2>
+          <div
+            id="collapse-1"
+            class="accordion-collapse collapse"
+            aria-labelledby="heading-1"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              This is an under graduate course at the Electrical Engineering
+              department at Sharif University of Technology. I am currently
+              responsible for studnets' course project on Bayesian Neural Networks.
+              <a href="https://ml-sut-amini.github.io/">Course Web Page</a>
+      
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingZero">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseZero"
+              aria-expanded="false"
+              aria-controls="collapseZero"
+            >
+              EE120:Deep Generative Models,
+              <a href="https://www.linkedin.com/in/s-amini/"> Dr. S. Amini</a>,
+              Fall 2024
+            </button>
+          </h2>
+          <div
+            id="collapseZero"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingZero"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              This is a graduate course at the Electrical Engineering
+              department at Sharif University of Technology. I am currently
+              responsible for theoretical and practical exercise on Generative
+              Flow Models. I also mentor students introducing them to related
+              research areas and recent papers.
+              <a href="https://generative-ai-sut.github.io/">Course Page</a>
+              <!-- <br />
+              you might see this course under the name of "Special Topics in
+              Telecommunications" at university website or student transcripts. -->
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              CE477:Machine Learning,
+              <a
+                href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en"
+              >
+                Dr. A. Sharifi-Zarchi</a
+              >, Fall 2024
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              This course is for both Undergraduate and Graduate students at
+              SUT, it was also available internationally to be audited. I am
+              currently part of the team for educational content of
+              “Breakthroughs: Vision Transformers, Self-Supervised Learning,
+              Contrastive Learning” Chapter and the team for Unsupervised
+              Learning and Clustering where I created the
+              <a
+                href="https://github.com/SharifiZarchi/Introduction_to_Machine_Learning/tree/main/Slides/Chapter_02_Unsupervised_Learning/01-Clustering"
+                >course slides</a
+              >. <a href="https://www.sharifml.ir/">Course Page</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Algorithmic Creativity and Programming in Python,
+              <a
+                href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en"
+              >
+                Dr. A. Sharifi-Zarchi</a
+              >, Summer 2023
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              In <a href="https://www.learn-python.ir/">this course</a> I was
+              responsible for holding mentorship classes every week, covering
+              topics such as python programming, combinatorics, sorting
+              algorithms, induction and greedy algorithms, game theory and
+              combinatorial games, graph theory and graph algorithms, recursion
+              and recursive programming, and dynamic programming.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              CS:Computer Networks,
+              <a href="https://www.researchgate.net/profile/Hossein-Peyvandi"
+                >Dr. H. Peyvandi</a
+              >, Spring 2024
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              In this course, I was responsible for designing and scoring
+              students final projects. I also held workshops guiding studets to
+              create a custom application layer protocol and use TCP and UDP to
+              create client-server and P2P network paradigms with socket
+              programming. Workshop codes and videos are
+              <a
+                href="https://github.com/hoomanzolfaghari84/socket-programming-workshop"
+                >here</a
+              >.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              CS822:Data Structures and Algorithms, Dr. H. Mehrabiun, Spring
+              2024
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              I created exercises in five series throughout the course, and
+              deployed them on
+              <a href="https://quera.org/course/16569/">Quera</a> for students.
+              My questions included the topics of dynamic programming, red-black
+              trees, hash-tables, sorting etc.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              CS861:Operating Systems, Dr. A. Vaezi, Spring 2024
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              In this course, I created and scored exercises on OS processes.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed custom-accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              CS815:Advanced Programming, Dr. H. Boomeri, Spring 2024
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#teachingExperienceAccordion"
+          >
+            <div class="accordion-body custom-accordion-body">
+              In this course I held TA classes on various topics including Git,
+              File storage, Clean Code, OOP etc. I also created educational
+              content on Multi Threaded programming and Reflection in Java. And
+              I helped with scoring student exercises.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 Hooman Zolfaghari</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

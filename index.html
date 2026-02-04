@@ -1,99 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hooman Zolfaghari</title>
-    <!-- Bootstrap CSS -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hooman Zolfaghari</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body
-    data-bs-spy="scroll"
-    data-bs-target="#navbarNav"
-    data-bs-offset="50"
-    tabindex="0"
-  >
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-      <a
-        style="padding-right: 10px; border-right: #cccccc solid 1px"
-        class="navbar-brand"
-        href="#"
-        >Hooman Zolfaghari
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">Hooman Zolfaghari</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="academic.html">Academic</a></li>
+<li class="nav-item"><a class="nav-link" href="industrial.html">Industrial</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
     <header class="jumbotron text-center">
-      <h1 class="main-heading">Hi, I'm Hooman Zolfaghari</h1>
-      <p class="header-subtext">
-        Computer Science Enthusiast | Passionate About Probability & Machine
-        Learning Research
-      </p>
+    <h1 class="main-heading">Hi, I'm Hooman Zolfaghari</h1>
+    <p class="header-subtext">
+    Computer Science Student · Machine Learning Researcher · Software Developer
+    </p>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container">
-      <h2>About Me</h2>
-      <div class="intro-section">
-        <img
-          src="assets\cropped.jpg"
-          alt="Profile Picture"
-          class="profile-pic"
-        />
-        <p>
-          I’m a Computer Science student at
-          <a
+
+<section class="container">
+
+<div class="intro-section">
+<img src="assets/cropped.jpg" class="profile-pic" alt="Profile" />
+
+<p>
+I am a Computer Scientist with a B.Sc. from <a
             href="https://en.wikipedia.org/wiki/Sharif_University_of_Technology"
             target="_blank"
             >Sharif University of Technology</a
-          >, with a deep passion for <strong> Probability</strong> and
-          <strong> Machine Learning</strong> . I’m always searching for the math
-          and reasoning behind everything, which drives my focus into the
-          mathematical concepts of Machine Learning.
-          <br />
-          I naturally do a lot of programming as well, you may see some of my
-          public codes on my
-          <a href="https://github.com/hoomanzolfaghari84">GitHub</a>.
-          <br />
-          I’ve also had the opportunity to work on exciting research projects
-          during my B.Sc. which you can see
-          <a href="#experience">here</a>.
-        </p>
-      </div>
-      <h5>Research Interests</h5>
+          >. I conduct research in Image Generation and Deep Learning Theory.
+<br/><br/>
+In parallel, I enjoy building software systems including backend
+services, game engines, and performance-critical applications.
+<br/><br/>
+→ For research: visit <a href="academic.html">Academic Page</a>
+<br/>
+→ For programming: visit <a href="industrial.html">Industrial Page</a>
+</p>
+</div>
+
+<h5>Research Interests</h5>
       <p>
         As part of the quest to understand our reality, and understand how the
         world and our brain works, I am focused on the underlying mathematics
@@ -178,8 +144,7 @@
           </div>
         </div>
 
-
-      <!-- <ul class="container" style="list-style-type: square">
+<!-- <ul class="container" style="list-style-type: square">
        
         <button
           class="btn btn-primary"
@@ -244,96 +209,9 @@
           </li>
         </div>
       </ul> -->
-    </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="container">
-      <h2>Education</h2>
-      <p>
-        <strong
-          >B.Sc. in Computer Science at Sharif University of Technology</strong
-        >
-      </p>
+</section>
 
-      <h6>Courses of Interest:</h6>
-      <ul>
-        <li>Machine Learning</li>
-        <p style="margin-left: 0.5rem">
-          This was a graduate course since it contained some topics of ML Theory
-          as well. It was my first official ML course where I learned some of
-          the theoretical foundations and topics ranging from classics like
-          random forests and mixture models to Neural Networks and RL. And I
-          implemented some methods from scratch, like MAP, SVM and MLP.The final project was also Nueral Style Transfer.
-        </p>
-        <li>Stochastic Processes</li>
-        <p style="margin-left: 0.5rem">
-          This was my first advanced probability course. We
-          learned about Markov Chains and its variations, Poisson and Gaussian
-          processes, martingals and many other topics. The final project and my
-          extra project was about MCMC: Metropolis Hastings algorithm, where I
-          was introduced to sampling methods.
-        </p>
-        <li>High-Dimensional Probability Analysis</li>
-        <p style="margin-left: 0.5rem">
-          This was a graduate course where we study probabilistic methods and
-          concentration inequalities in high-dimensional spaces, with
-          applications in areas such as machine learning, random matrix theory,
-          and statistics.
-        </p>
-        <li>Theory of Machine Learning</li>
-        <p style="margin-left: 0.5rem">
-          This was a graduate course where we learned many of the mathematical
-          concepts and the classic background, that lead to today's Machine Learning and Deep Learning.
-        </p>
-
-        <li>Statistical Learning (Regression Analysis)</li>
-        
-        <p style="margin-left: 0.5rem">
-          In this course I learned a formal statistical learning view that is
-          incorporated in ML. This was an introductory course compared to the
-          ones above.
-        </p>
-
-        <li>Linear Algebra, Game Theory</li>
-        <p style="margin-left: 0.5rem">
-          These courses were also among my favorite courses.
-        </p>
-
-        <li>
-          Probability and its applications, Statistics and its applications
-        </li>
-        <p style="margin-left: 0.5rem">
-          These are also foundation courses that I enjoyed.
-        </p>
-        <li>
-          Databases, Data Structures and Algorithms, Advanced Programming,
-          Operating Systems, Computer Networks, Principles of Computer Systems,
-          Numerical Analysis, Automata and Theory of languages
-        </li>
-        <p style="margin-left: 0.5rem">
-          These courses also helped me through my CS journy and are foundations
-          of my Computer Science knowledge.
-        </p>
-      </ul>
-
-      <h6>Other Certificates:</h6>
-      <ul>
-        <li>
-          <a
-            href="https://portal.neuromatchacademy.org/certificate/5559d355-cdf1-4aad-ab89-4876aae27fcb"
-            >Deep Learning</a
-          >
-          from Neuromatch Academy
-        </li>
-        <!-- <li>
-          <a
-            href="https://credsverse.com/credentials/abae407d-dab1-4892-911c-78296edda24e?recipient=true"
-            >Artificial Intelligence in Clinical Practice</a
-          >
-          from Iran Elites Network
-        </li> -->
-      </ul>
-    </section>
 
     <!-- Quote Section -->
     <section id="quote" class="container my-5">
@@ -347,354 +225,22 @@
       </blockquote>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="container">
-      <h2>Experience</h2>
-      <h5>Research Experience</h5>
-      <ul>
-        <li class="container bg-dark" style="margin-bottom: 0.5rem">
-          Graph Similarity Search, under the supervision of
-          <a href="https://scholar.google.com/citations?user=eJEmXiQAAAAJ&hl=en"
-            >Dr. A. Rafiey</a
-          >
-          and
-          <a href="https://scholar.google.com/citations?user=V-147yoAAAAJ&hl=en"
-            >Dr. A. Vaezi</a
-          >.
-
-          <p style="padding-top: 0.5rem; padding-left: 1rem">
-            We worked on Expressive measures of graph similarity for ML tasks.
-            Starting with non-parametric and kernel methods, and then
-            incorporating deep parametric methods. Here I had the opportunity to
-            introduce many ideas and theoretical analysis, create theoretical
-            proofs and conduct benchmark experiments. I studied concepts in Geometric Deep Learning and Graph
-            NNs, Approximation on Graphs, Graph Theory, Optimization and
-            Topology.
-          </p>
-        </li>
 
 
-        <li class="container bg-dark" style="margin-bottom: 0.5rem">
-          On Security and Privacy of Kolmogorov-Arnold Networks, under the
-          supervision of
-          <a href="https://sharif.edu/~s_amini/#about"> Prof. S. Amini: </a>
+<section id="contact" class="container">
+<h2>Contact</h2>
+<p>
+Email (Primary): <a href="mailto:hoomanzolfaghari84@gmail.com">hoomanzolfaghari84@gmail.com</a> <br>
+Email (Secondary): <a href="mailto:hooman.zolfaghari84@sharif.edu">hooman.zolfaghari84@sharif.edu</a>
+</p>
 
-          <p style="padding-top: 0.5rem; padding-left: 1rem">
-            We are experimenting with many aspects of Trustworthy ML on KANs,
-            such as Robustness, Membership Inference, Certified
-            Robustness.
-            Collaborated with students at the University of Massachusetts
-          </p>
-        </li>
 
-        <li class="container bg-dark" style="margin-bottom: 0.5rem">
-          Bayes-Markov model of Cortical Orientation Selectivity, under the
-          supervision of
-          <a href="https://www.researchgate.net/profile/Hossein-Peyvandi"
-            >Dr. H. Peyvandi</a
-          >.
+<div class="contact-links">
+<a href="https://github.com/hoomanzolfaghari84">GitHub</a>
+<a href="https://www.linkedin.com/in/hooman-zolfaghari-100a5120b">LinkedIn</a>
+</div>
 
-          <p style="padding-top: 0.5rem; padding-left: 1rem">
-            We studied and experimented on a model based on Markov Random Fields
-            and Bayesian Inference, inspired by their use in computer vision tasks.
-            <!-- Most
-            existing computational algorithms are too energy consuming to be
-            applicable to brain mechanisms and many of the current computaional
-            models of OS in brain have shortcommings in explaining the availabe
-            experimental evidence. -->
-          </p>
-        </li>
-      </ul>
-
-      <h5>Teaching Experience</h5>
-     
-      <div class="accordion" id="teachingExperienceAccordion">
-        
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="heading-1">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapse-1"
-              aria-expanded="false"
-              aria-controls="collapse-1"
-            >
-             EE737:Introduction to Machine Learning,
-              <a href="https://www.linkedin.com/in/s-amini/"> Dr. S. Amini</a>,
-              Spring 2025
-            </button>
-          </h2>
-          <div
-            id="collapse-1"
-            class="accordion-collapse collapse"
-            aria-labelledby="heading-1"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              This is an under graduate course at the Electrical Engineering
-              department at Sharif University of Technology. I am currently
-              responsible for studnets' course project on Bayesian Neural Networks.
-              <a href="https://ml-sut-amini.github.io/">Course Web Page</a>
-      
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingZero">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseZero"
-              aria-expanded="false"
-              aria-controls="collapseZero"
-            >
-              EE120:Deep Generative Models,
-              <a href="https://www.linkedin.com/in/s-amini/"> Dr. S. Amini</a>,
-              Fall 2024
-            </button>
-          </h2>
-          <div
-            id="collapseZero"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingZero"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              This is a graduate course at the Electrical Engineering
-              department at Sharif University of Technology. I am currently
-              responsible for theoretical and practical exercise on Generative
-              Flow Models. I also mentor students introducing them to related
-              research areas and recent papers.
-              <a href="https://generative-ai-sut.github.io/">Course Page</a>
-              <!-- <br />
-              you might see this course under the name of "Special Topics in
-              Telecommunications" at university website or student transcripts. -->
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="false"
-              aria-controls="collapseOne"
-            >
-              CE477:Machine Learning,
-              <a
-                href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en"
-              >
-                Dr. A. Sharifi-Zarchi</a
-              >, Fall 2024
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingOne"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              This course is for both Undergraduate and Graduate students at
-              SUT, it was also available internationally to be audited. I am
-              currently part of the team for educational content of
-              “Breakthroughs: Vision Transformers, Self-Supervised Learning,
-              Contrastive Learning” Chapter and the team for Unsupervised
-              Learning and Clustering where I created the
-              <a
-                href="https://github.com/SharifiZarchi/Introduction_to_Machine_Learning/tree/main/Slides/Chapter_02_Unsupervised_Learning/01-Clustering"
-                >course slides</a
-              >. <a href="https://www.sharifml.ir/">Course Page</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Algorithmic Creativity and Programming in Python,
-              <a
-                href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en"
-              >
-                Dr. A. Sharifi-Zarchi</a
-              >, Summer 2023
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              In <a href="https://www.learn-python.ir/">this course</a> I was
-              responsible for holding mentorship classes every week, covering
-              topics such as python programming, combinatorics, sorting
-              algorithms, induction and greedy algorithms, game theory and
-              combinatorial games, graph theory and graph algorithms, recursion
-              and recursive programming, and dynamic programming.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              CS:Computer Networks,
-              <a href="https://www.researchgate.net/profile/Hossein-Peyvandi"
-                >Dr. H. Peyvandi</a
-              >, Spring 2024
-            </button>
-          </h2>
-          <div
-            id="collapseThree"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              In this course, I was responsible for designing and scoring
-              students final projects. I also held workshops guiding studets to
-              create a custom application layer protocol and use TCP and UDP to
-              create client-server and P2P network paradigms with socket
-              programming. Workshop codes and videos are
-              <a
-                href="https://github.com/hoomanzolfaghari84/socket-programming-workshop"
-                >here</a
-              >.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFive"
-              aria-expanded="false"
-              aria-controls="collapseFive"
-            >
-              CS822:Data Structures and Algorithms, Dr. H. Mehrabiun, Spring
-              2024
-            </button>
-          </h2>
-          <div
-            id="collapseFive"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFive"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              I created exercises in five series throughout the course, and
-              deployed them on
-              <a href="https://quera.org/course/16569/">Quera</a> for students.
-              My questions included the topics of dynamic programming, red-black
-              trees, hash-tables, sorting etc.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFour"
-              aria-expanded="false"
-              aria-controls="collapseFour"
-            >
-              CS861:Operating Systems, Dr. A. Vaezi, Spring 2024
-            </button>
-          </h2>
-          <div
-            id="collapseFour"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFour"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              In this course, I created and scored exercises on OS processes.
-            </div>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSix">
-            <button
-              class="accordion-button collapsed custom-accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseSix"
-              aria-expanded="false"
-              aria-controls="collapseSix"
-            >
-              CS815:Advanced Programming, Dr. H. Boomeri, Spring 2024
-            </button>
-          </h2>
-          <div
-            id="collapseSix"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingSix"
-            data-bs-parent="#teachingExperienceAccordion"
-          >
-            <div class="accordion-body custom-accordion-body">
-              In this course I held TA classes on various topics including Git,
-              File storage, Clean Code, OOP etc. I also created educational
-              content on Multi Threaded programming and Reflection in Java. And
-              I helped with scoring student exercises.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h5>Industrial Experience</h5>
-      <ul>
-        <li>Software Development, Mika Corporation</li>
-        I was backend developer where I created the back-end source code (from
-        base) for a central application for managing luxury buildings built by
-        the company. I also helped the front-end team to communicate with the
-        server APIs. I used C# and "ASP.Net" for backend and React for
-        front-end.
-      </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container">
-      <h2>Contact</h2>
-      <p>
-        Feel free to reach out to me at
-        <a href="mailto:hoomanzolfaghari84@gmail.com"
-          >hoomanzolfaghari84@gmail.com</a
-        >
-        or
-        <a href="mailto:hooman.zolfaghari84@sharif.edu"
-          >hooman.zolfaghari84@sharif.edu</a
-        >.
-      </p>
-      <div class="contact-links">
+<div class="contact-links">
         <a href="https://github.com/hoomanzolfaghari84">
           <img
             src="assets/github-mark-white.png"
@@ -713,11 +259,12 @@
           LinkedIn
         </a>
       </div>
-    </section>
+
+</section>
 
     <!-- Footer -->
     <footer>
-      <p>&copy; 2024 Hooman Zolfaghari. All rights reserved.</p>
+      <p>&copy; 2026 Hooman Zolfaghari.</p>
     </footer>
 
     <!-- Bootstrap JS and dependencies -->
